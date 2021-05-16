@@ -136,7 +136,7 @@ nav ul li a:hover,
     list-style: none;
     padding: 25px;
     font-size: small;
-    bottom: -47px;
+    bottom: -46px;
     /* z-index=2; */
 }
 
@@ -209,11 +209,17 @@ padding-right: 2px;
         flex-direction: column;
         gap: 50px;
     }
+    .diamond{
+        margin: 0 18px;
+    }
+    .date ul {
+        gap:5px;
+    }
 }
 
 @media only screen and (max-width:1190px) {
     nav ul {
-        width: 35%;
+        width: 40%;
         background: linear-gradient(to right, rgb(253 0 0), rgb(255 94 0));
         position: absolute;
         text-align: center;
@@ -236,7 +242,9 @@ padding-right: 2px;
 
     nav ul li a:hover {
         color: rgb(255, 4, 4);
-        padding: 10px 30px;
+        /* padding: 10px 30px; */
+        
+    width: -webkit-fill-available;
         background: #fff;
     }
 
